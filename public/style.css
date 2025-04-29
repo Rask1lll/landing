@@ -1,16 +1,111 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
 .navigation{
     display: flex;
     text-align: center;
+   max-width: 1280px;
+    height: 80px;
+    color: rgba(83, 88, 98, 1);
 }
 .listOfPages{
     user-select: none;
     list-style: none;
     display: flex;
-}
-.logo{
+    align-items: center;
+    height: 28px;
+    width: 28px;
+
+    padding-left: auto;
 }
 
-.logo img{
+.navigation{
+        width: 1440px;
+    align-items: center;
+}
+
+.image{
     width: 31px;
     height: 19px;
+}
+
+.listOfPages li{
+    padding-left: 32px;
+    padding-right: 32px;
+    transition: 0.3s;
+}
+
+.listOfPages li:hover{
+    color: rgb(93, 95, 224);
+}
+
+.Applet{
+    font-family: Font family/font-family-body;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: Line height/text-md;
+    letter-spacing: 0%;
+    margin-right: 100px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero{
+    max-width: 1280px;
+    max-height: 640px;
+    width: 1280px;
+    height: 640px;
+    padding: 80px;
+}
+.container{
+    display: flex;
+    width: 1280px;
+    height: 640px;
+    float: right;
+    flex-wrap: wrap;
+}
+.imageWrapper{
+    width: 560px;
+    height: 640px;
+    margin-left: auto;
+    margin-right: 30px;
+}
+
+.heroTitle{
+    margin-top: 20%;
+    font-size: 50px;
+    color: rgba(24, 29, 39, 1);
+    width: 750px;
+    position: relative;
+    z-index: 10;
+}
+.heroContent{
+    width: 600px;
+}
+.heroImg{
+    position: absolute;
+    /* right: 350px; */
+    z-index: 1;
+}
+.contact{
+    font-size: 18px;
+    color: white;
+    width: 146px;
+    height: 60px;
+    background-color: rgba(127, 86, 217, 1);
+    border-radius: 10px;
+    border: none;
+}
+
+.projects{
+    background-color: rgba(213, 215, 218, 1);
+    width: 120px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
 }
