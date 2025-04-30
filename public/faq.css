@@ -1,0 +1,34 @@
+.faqSection{
+    width: 1440;
+    height: 878;
+    padding: 96px 80px;
+    /* background-color: aqua; */
+}
+
+.faqtitleContainer{
+    text-align: center;
+    margin: 0 256px;
+    width: 768;
+    height: 94;
+}
+.faqtitleContainer h3{
+    width: 768;
+    height: 44;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: -2%;
+    text-align: center;
+    color: rgba(24, 29, 39, 1);
+    margin: 0;
+    margin-bottom: 32px;
+}
+
+.faqtitleContainer p{
+    width: 768;
+    height: 60;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0;
+}
