@@ -3,6 +3,7 @@
     height: 878;
     padding: 96px 80px;
     /* background-color: aqua; */
+    background-color: #FAFAFA;
 }
 
 .faqtitleContainer{
@@ -25,10 +26,76 @@
 }
 
 .faqtitleContainer p{
-    width: 768;
-    height: 60;
+    width: 768px;
+    height: 60px;
     font-weight: 400;
     font-size: 20px;
     line-height: 30px;
     margin: 0;
+    margin-bottom: 64px;
+}
+
+.faqTable {
+    width: 768px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+    padding: 0 256px;
+    height: 528px;
+    padding-bottom: 0;
+}
+
+
+.faqElement {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #c2c2c233;
+    padding-bottom: 32px; /* чтобы линия не липла к тексту, по желанию */
+}
+
+  
+.faqElement:last-child {
+    border-bottom: none;
+}
+
+
+.faqElement h5, .faqElement p{
+    margin: 0;
+}
+
+.faqElement:first-child{
+    display: block;
+    height: 108px !important;
+}
+
+.faqElement p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #535862;
+}
+
+.faqElement h5{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    color:#181D27;
+    margin-bottom: 8px;
+    margin: 0;
+    display: flex;
+    margin-top: auto;
+}
+
+.faqElementTitle{
+    
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.faqElementTitle img{
+    margin-left: auto;
+    width: 20px;
+    height: 20px;
 }

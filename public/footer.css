@@ -1,0 +1,29 @@
+footer{
+    background-color: #53389E;
+    padding: 64px 0 48px;
+}
+
+.footerContainer{
+    display: flex;
+    width: 1216px;
+    height: 55px;
+    margin: auto 112px;
+    /* border-top: 1px solid ; */
+    border-top: 1px solid var(--Colors-Border-border-brand_alt, #7F56D9)
+}
+
+.footerContainer p{
+    color: #D6BBFB;
+    font-weight: 400;
+    font-size: 16px;
+    height: 24px;
+    margin: 0;
+    display: flex;
+    margin-top: auto;
+}
+
+.socialMedia{
+    display: flex;
+    margin-top: auto;
+    margin-left: auto;
+}

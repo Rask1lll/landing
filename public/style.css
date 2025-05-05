@@ -1,4 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+button,a{
+    cursor: url('../assets/Cursor.png'), auto;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
 body{
     font-family: 'Inter', sans-serif;
     margin: 0;
@@ -245,9 +253,6 @@ body{
     display: grid;
     justify-content: center;
     margin: 0;
-
-    width: 1440px;
-    height: 992px;
     padding: 58px;
     padding-bottom: 0;
     margin-bottom: 96px;
