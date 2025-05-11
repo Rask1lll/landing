@@ -24,7 +24,7 @@
     font-weight: 600;
     font-size: 36px;
     line-height: 44px;
-    letter-spacing: -2%;
+    letter-spacing: -0.02em;
     text-align: center;
     color: #181D27;
     margin: 0;
@@ -52,6 +52,7 @@
     gap: 16px;
     /* padding-bottom: 10px; */
     margin-bottom: 64px;
+    border-bottom: 1px #E9EAEB solid;
 }
 
 .chosenOption{
@@ -71,9 +72,13 @@
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0%;
+    color: #717680;
 }
 
 .chosenOptionWrapper{
+    
+    padding-left: 4px;
+    padding-right: 4px;
     padding-bottom: 10px;
     border-bottom: 2px solid var(--Colors-Foreground-fg-brand-primary_alt, #7F56D9) 
 }
@@ -93,7 +98,7 @@
 
 .projectsGridCart{
     width: 384;
-    height: 440;
+    height: 440px;
     min-width: 320px;
 
 }
@@ -104,9 +109,13 @@
     width: 1280px;
     display: grid;
     grid-template-columns: repeat(3,384px);
-    row-gap: 32px;
-    column-gap: 48px;
+    row-gap: 48px;
+    column-gap: 32px;
     padding: 0 ;
+}
+
+.projectGridContainer{
+    height: 440px;
 }
 
 .lastProjectsTitleContainer{
@@ -128,7 +137,7 @@
     height: 240px;
     border-radius: 16px;
     margin: 0;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
 }
 .lastProjects{
     color: #6941C6;
@@ -173,6 +182,7 @@
     font-weight: 400;
     margin: 0;
     margin-bottom: 24px;
+    letter-spacing: -0.005px;
 }
 
 .toolsProject{
@@ -189,4 +199,16 @@
     font-size: 14px;
     line-height: 20px;
     font-weight: 400;
+}
+
+.nameProject{
+    display: flex;
+    align-items: center;
+}
+
+.nameProject img{
+    width: 11px;
+    height: 11px;
+    margin-left: auto;
+    margin-right: 7px;
 }

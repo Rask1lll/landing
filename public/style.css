@@ -7,65 +7,81 @@ a{
     text-decoration: none;
     color: #000;
 }
+
 body{
     font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0;
     width: 1440px;
 }
+
 .navigation{
-    padding: 0 80px;
     display: flex;
     text-align: center;
-   max-width: 1280px;
-    height: 80px;
-    color: rgba(83, 88, 98, 1);
+    padding: 11px 0;
+    color: #535862;
+    margin: 0 114px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0px;
 }
+
+
+.navigation ul{
+    padding: 0;
+}
+
 .listOfPages{
     user-select: none;
     list-style: none;
     display: flex;
     align-items: center;
-    height: 28px;
-    width: 28px;
 }
 
-.navigation{
-        align-items: center;
-}
 
 .image{
     width: 31px;
     height: 19px;
+    
+    margin-top: 3px;
+    margin-bottom: 2px;
+    margin-right: 11px;
 }
-
-.listOfPages li{
-    padding-left: 32px;
-    padding-right: 32px;
-    transition: 0.3s;
+.navBarBtn{
+    display:flex;
+    gap: 20px;
 }
 
 .listOfPages li:hover{
-    color: rgb(93, 95, 224);
+    color: #53389E;
 }
 
 .Applet{
     color: #000000;
-    font-family: Font family/font-family-body;
     font-weight: 600;
     font-size: 24px;
     line-height: Line height/text-md;
     letter-spacing: 0%;
-    margin-right: 100px;
+    /* margin-right: 100px; */
 }
 .logo{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-right: 550px;
+    margin-right: 773px;
+}
+
+.logo a{
+    display: flex;
+    height: 24px;
+    width: 124px;
+    justify-items: center;
+    align-items: center;
 }
 
 .hero{
+    position: relative;
     max-width: 1280px;
     max-height: 640px;
     width: 1280px;
@@ -96,10 +112,22 @@ body{
     line-height: 72px;
     font-weight: 600;
     letter-spacing: -1px;
+    margin-bottom: 24px;
 }
 .heroContent{
     margin: 152px auto 152px 32px;
     width: 600px;
+}
+
+.heroContent p{
+    width: 560px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0px;
+    color: #535862;
+    margin: 0;
+    margin-bottom: 48px;
 }
 .heroImg{
     position: absolute;
@@ -113,15 +141,28 @@ body{
     background-color: rgba(127, 86, 217, 1);
     border-radius: 10px;
     border: none;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    margin-right: 9px;
+    padding: 16px 24px;
 }
 
 .projects{
+    font-weight: 600;
     font-size: 18px;
-    background-color: rgba(213, 215, 218, 1);
+    line-height: 28px;
+    letter-spacing: 0%;
+    font-size: 18px;
+    color: #414651;
+    background-color: #FFFFFF;
     width: 120px;
     height: 60px;
     border-radius: 10px;
-    border: none;
+    border: 1px #D5D7DA solid;
+    margin: 0;
+    padding: 16px 24px;
 }
 
 .featuresSection{
@@ -138,38 +179,65 @@ body{
     margin-bottom: 64px;
 }
 .pricipeTitleSection div p{
+    font-weight: 600;
     font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
     text-align: center;
+    color: #6941C6;
+    margin: 0;
+    margin-bottom: 12px;
 }
 
 .pricipeTitleSection div h3{
-    margin: 0;
-    margin-top: 12px;
+    font-weight: 600;
     font-size: 36px;
+    line-height: 44px;
+    letter-spacing: -0.02em;
     text-align: center;
+    margin: 0;
+    font-size: 36px;
+    color: #181D27;
 }
 .pricipeTitleSection div{
-    margin-bottom: 48px;
+    margin-bottom: 20px;
 }
 
 .pricipeTitleSection p{
+    font-weight: 400;
     font-size: 20px;
+    line-height: 30px;
     margin: 0;
     text-align: center;
+    color: #535862;
 }
 
 .principesGrid{
     display: grid;
     grid-template-columns: repeat(3,384px);
-    gap:32px;
+    column-gap: 32px;
+    row-gap: 64px;
 }
 .pricipe{
     text-align: center;
 }
 
 .principeTitle{
+    font-weight: 600;
     font-size: 20px;
-    margin: 20px 0;
+    line-height: 30px;
+    font-size: 20px;
+    margin: 13px 0 8px;
+    color: #181D27;
+}
+
+.pricipeDescription{
+    color: #535862;
+    /* font-family: Font family/font-family-body; */
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
 }
 
 .testimonialSection{
@@ -191,19 +259,14 @@ body{
 .testimonialmg{
     width: 480px;
     height: 448px;
-    margin-left: auto;
-    border-top-right-radius: 24px;
-    border-bottom-right-radius: 24px;
 }
 
 .commentWrapper{
-    width: 736px;
     display: flex;
-    padding: 64px;
+    padding: 71px 64px;
 }
 
 .commentary{
-    width: 608px;
     justify-content: center;
 }
 
@@ -214,6 +277,9 @@ body{
     line-height: 44px;
     font-weight: 500;
     margin-bottom: 32px;
+    width: 608px;
+    letter-spacing: -0.01em;
+    /* word-spacing: 0%; */
 }
 
 .stars{
@@ -226,11 +292,21 @@ body{
 }
 
 .quotes{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0%;
     margin: 0;
     margin-bottom: 4px;
+    color: #FFFFFF;
 }
 
 .major{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #E9D7FE;
     margin: 0;
     margin-bottom: 32px;
 }
@@ -251,9 +327,8 @@ body{
 .blogSection{
     /* margin: 0; */
     display: grid;
-    justify-content: center;
     margin: 0;
-    padding: 58px;
+    padding: 96px 80px;
     padding-bottom: 0;
     margin-bottom: 96px;
     /* padding-bottom: 0; */
@@ -261,12 +336,16 @@ body{
 
 .lastProjectsContainer{
     margin: 0;
-    /* height: 100px; */
     width: 1280px;
     display: grid;
     grid-template-columns: repeat(3,384px);
     gap:32px;
-    padding: 0 ;
+    margin-left: 32px;
+    margin-bottom: 64px;
+}
+
+.projectGridContainer{
+    padding-bottom: 24px;
 }
 
 .lastProjectsTitleContainer{
@@ -281,6 +360,7 @@ body{
 .lastProjectsTitleContainer div{
     padding: 0 336px;
     width: 768px;
+    margin-bottom: 64px;
 }
 
 .projectsGridImage{
@@ -288,7 +368,7 @@ body{
     height: 240px;
     border-radius: 16px;
     margin: 0;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
 }
 .lastProjects{
     color: #6941C6;
@@ -298,14 +378,24 @@ body{
     margin-bottom: 12px;
 }
 .lastProjectsTitle{
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+    text-align: center;
+
     font-size: 36px;
-    font-weight: 44px;
     margin: 0;
-    margin-bottom: 32px;
+    margin-bottom: 20px;
 }
 .lastProjectsDescription{
+    margin: 0;
     font-size: 20px;
     font-weight: 30px;
+    color: #535862;
+    font-weight: 400;
+    font-size: 20px;
+    line-height:30px;
+    text-align: center;
 }
 
 .category{
@@ -326,6 +416,18 @@ body{
     margin-bottom: 8px;
 }
 
+.nameProject{
+    display: flex;
+    align-items: center;
+}
+
+.nameProject img{
+    width: 12px;
+    height: 12px;
+    margin-left: auto;
+    margin-right: 7px;
+}
+
 .descriptionProject{
     color: #535862;
     font-size: 16px;
@@ -333,6 +435,7 @@ body{
     font-weight: 400;
     margin: 0;
     margin-bottom: 24px;
+    width: 384.1px;
 }
 
 .toolsProject{
@@ -362,5 +465,5 @@ body{
     font-size: 16px;
     font-weight: 600;
     line-height: 24px;
-    margin: 0 524px;
+    margin: 0 556px;
 }

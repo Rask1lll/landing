@@ -27,7 +27,7 @@
     font-size: 36px;
     font-weight: 600;
     line-height: 44px;
-    letter-spacing: -2%;
+    letter-spacing: -0.02em;
     color: #181D27;
 }
 
@@ -61,8 +61,8 @@
     margin-top: 24px;
     margin-left: 24px;
     position: absolute;
-    width: 48px;
-    height: 48px;
+    width: 51px;
+    height: 51px;
 }
 
 

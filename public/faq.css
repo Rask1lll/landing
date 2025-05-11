@@ -11,6 +11,8 @@
     margin: 0 256px;
     width: 768;
     height: 94;
+    
+    margin-bottom: 64px;
 }
 .faqtitleContainer h3{
     width: 768;
@@ -18,21 +20,25 @@
     font-weight: 600;
     font-size: 36px;
     line-height: 44px;
-    letter-spacing: -2%;
+    /* letter-spacing: -2%; Нет такого ищяк */
+    /* letter-spacing: -0.02em; */
     text-align: center;
     color: rgba(24, 29, 39, 1);
     margin: 0;
-    margin-bottom: 32px;
+    margin-bottom: 20px;
+}
+.faqSection .faqtitleContainer h3{
+    letter-spacing: -0.02em;
 }
 
 .faqtitleContainer p{
     width: 768px;
-    height: 60px;
     font-weight: 400;
     font-size: 20px;
     line-height: 30px;
     margin: 0;
-    margin-bottom: 64px;
+
+    color: #535862;
 }
 
 .faqTable {
@@ -50,7 +56,10 @@
     width: 100%;
     height: auto;
     border-bottom: 1px solid #c2c2c233;
-    padding-bottom: 32px; /* чтобы линия не липла к тексту, по желанию */
+    /* padding-bottom: 32px; чтобы линия не липла к тексту, по желанию */
+
+    /* 32px - 1px(border) = 31px */
+    padding-bottom: 31px; /* чтобы линия не липла к тексту, по желанию */
 }
 
   
@@ -68,19 +77,25 @@
     height: 108px !important;
 }
 
-.faqElement p{
+.faqElement p {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 0%;
+    /* line-height: 23px; */
+    letter-spacing: 0;
     color: #535862;
+    max-width: 720px;
+    padding: 0;
+}
+.faqTable .faqElement p {
+    padding-top: 8px;
 }
 
 .faqElement h5{
     font-weight: 500;
     font-size: 18px;
     line-height: 28px;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     color:#181D27;
     margin-bottom: 8px;
     margin: 0;
@@ -88,14 +103,20 @@
     margin-top: auto;
 }
 
-.faqElementTitle{
-    
+.faqElementTitle {
     align-items: center;
     justify-content: center;
     display: flex;
 }
-.faqElementTitle img{
+.faqElementTitle h5 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    /* letter-spacing: 0em; */
+    color: #181D27;
+}
+.faqElementTitle img {
     margin-left: auto;
-    width: 20px;
-    height: 20px;
+    width: 22px;
+    height: 22px;
 }
